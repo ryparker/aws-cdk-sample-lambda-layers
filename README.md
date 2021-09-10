@@ -31,13 +31,13 @@ _This only needs to be ran once per account/region._
   yarn build
 ```
 
-**3. Deploy the Lambda Layer stack**
+**4. Deploy the Lambda Layer stack**
 
 ```shell
   yarn deploy LambdaLayerStack
 ```
 
-**3. Deploy the Lambda Function stack**
+**5. Deploy the Lambda Function stack**
 
 ```shell
   yarn deploy LambdaFunctionStack
