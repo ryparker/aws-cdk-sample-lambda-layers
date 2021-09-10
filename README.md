@@ -21,8 +21,14 @@ _This only needs to be ran once per account/region._
   yarn build
 ```
 
-**3. Deploy Cloudformation infrastructure to AWS account**
+**3. Deploy the Lambda Layer stack**
 
 ```shell
-  yarn deploy
+  yarn deploy LambdaLayerStack
+```
+
+**3. Deploy the Lambda Function stack**
+
+```shell
+  yarn deploy LambdaFunctionStack
 ```
