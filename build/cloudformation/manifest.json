@@ -1,0 +1,305 @@
+{
+  "version": "14.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "MyStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "MyStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/MyStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.a5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5.zip",
+              "id": "a5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5",
+              "packaging": "file",
+              "sourceHash": "a5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5",
+              "s3BucketParameter": "AssetParametersa5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5S3Bucket37EFFFBE",
+              "s3KeyParameter": "AssetParametersa5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5S3VersionKey07D8F944",
+              "artifactHashParameter": "AssetParametersa5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5ArtifactHash5C209FBB"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/construct-compat.js:405:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:175:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:40:44)",
+              "AssetCode.bind (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/code.js:258:26)",
+              "new LayerVersion (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/layers.js:57:33)",
+              "Object.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/build/js/index.js:8:13)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1d",
+              "id": "84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1d",
+              "packaging": "zip",
+              "sourceHash": "84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1d",
+              "s3BucketParameter": "AssetParameters84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1dS3BucketA3833CEC",
+              "s3KeyParameter": "AssetParameters84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1dS3VersionKey92767D80",
+              "artifactHashParameter": "AssetParameters84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1dArtifactHashC00FE686"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/construct-compat.js:405:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:175:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:40:44)",
+              "AssetCode.bind (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/code.js:258:26)",
+              "new Function (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:33)",
+              "Object.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/build/js/index.js:13:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/MyStack/NpmDependencyLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NpmDependencyLayerE514D0C3",
+            "trace": [
+              "new LayerVersion (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/layers.js:64:26)",
+              "Object.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/build/js/index.js:8:13)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/MyStack/AssetParameters/a5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5S3Bucket37EFFFBE",
+            "trace": [
+              "new FileAssetParameters (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:40:44)",
+              "AssetCode.bind (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/code.js:258:26)",
+              "new LayerVersion (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/layers.js:57:33)",
+              "Object.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/build/js/index.js:8:13)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/MyStack/AssetParameters/a5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5S3VersionKey07D8F944",
+            "trace": [
+              "new FileAssetParameters (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:40:44)",
+              "AssetCode.bind (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/code.js:258:26)",
+              "new LayerVersion (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/layers.js:57:33)",
+              "Object.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/build/js/index.js:8:13)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/MyStack/AssetParameters/a5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa5026f2ffeb8026bbf0708f292a8e55faa6b91643efe5350b965e7dda6e4c2b5ArtifactHash5C209FBB",
+            "trace": [
+              "new FileAssetParameters (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:40:44)",
+              "AssetCode.bind (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/code.js:258:26)",
+              "new LayerVersion (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/layers.js:57:33)",
+              "Object.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/build/js/index.js:8:13)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/MyStack/AssetParameters/84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1d/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1dS3BucketA3833CEC",
+            "trace": [
+              "new FileAssetParameters (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:40:44)",
+              "AssetCode.bind (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/code.js:258:26)",
+              "new Function (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:33)",
+              "Object.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/build/js/index.js:13:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/MyStack/AssetParameters/84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1d/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1dS3VersionKey92767D80",
+            "trace": [
+              "new FileAssetParameters (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:40:44)",
+              "AssetCode.bind (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/code.js:258:26)",
+              "new Function (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:33)",
+              "Object.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/build/js/index.js:13:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/MyStack/AssetParameters/84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1d/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters84187e2b9bad8313e406e18d52d8d6f6e08ddffae594772cc8ed673cd134ca1dArtifactHashC00FE686",
+            "trace": [
+              "new FileAssetParameters (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "new Asset (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:40:44)",
+              "AssetCode.bind (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/code.js:258:26)",
+              "new Function (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:33)",
+              "Object.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/build/js/index.js:13:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/MyStack/MyFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFunctionServiceRole3C357FF2",
+            "trace": [
+              "new Role (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-iam/lib/role.js:72:22)",
+              "new Function (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:35)",
+              "Object.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/build/js/index.js:13:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/MyStack/MyFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFunction3BAA72D1",
+            "trace": [
+              "new Function (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/aws-lambda/lib/function.js:136:26)",
+              "Object.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/build/js/index.js:13:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/MyStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:22:30)",
+              "/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stage.js:100:41)",
+              "process.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/app.js:51:51)",
+              "Object.onceWrapper (node:events:514:26)",
+              "process.emit (node:events:394:28)"
+            ]
+          }
+        ],
+        "/MyStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:30:35)",
+              "/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/stage.js:100:41)",
+              "process.<anonymous> (/Users/ryanparker/Documents/GitHub/aws-cdk-sample-lambda-layers/node_modules/@aws-cdk/core/lib/app.js:51:51)",
+              "Object.onceWrapper (node:events:514:26)",
+              "process.emit (node:events:394:28)"
+            ]
+          }
+        ]
+      },
+      "displayName": "MyStack"
+    }
+  }
+}
